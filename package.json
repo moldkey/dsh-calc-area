@@ -1,0 +1,16 @@
+{
+  "name": "@liangjiehappy/dsh-calc-area",
+  "version": "0.1.0",
+  "description": "算房间地面/墙面面积，以及需要多少块瓷砖、多少升涂料。装修备料时用。纯本地计算，不联网。",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": ["lib", "cordis.patch.yml", "README.md"],
+  "keywords": ["dsh", "dsh-plugin", "calc", "calculator", "area", "计算器"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moldkey/dsh-calc-area.git"
+  },
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "engines": { "dsh": ">=0.2.0-rc.2" }
+}

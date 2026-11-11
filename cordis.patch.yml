@@ -1,0 +1,4 @@
+# 装修面积计算
+- insert:
+    - id: dsh-calc-area
+      name: "@liangjiehappy/dsh-calc-area"
